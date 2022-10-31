@@ -1,0 +1,64 @@
+// None of this CSS is required for the gallery and lightbox to function.
+
+// --- BEGIN: crop images --- //
+// Optional CSS for cropping images that aren't all the same size.
+
+// Use Bootstrap breakpoints for consistency.
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+// Crop thumbnail images.
+#gallery {
+    display: flex;
+    justify-content: center;
+    padding-right: 16px !important;
+
+    img {
+        border-radius: 8px;
+        border: solid #9453A6;
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 200px !important;
+        width: 100px !important;
+        object-fit: cover;
+
+        @media (min-width: $bootstrap-sm) {
+            height: 35vw;
+        }
+
+        @media (min-width: $bootstrap-lg) {
+            height: 200vw;
+        }
+    }
+}
+
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+// Crop images in lightbox.
+.carousel-item {
+    img {
+        padding-right: 100px;
+        width: 600px !important;
+        height: 400px !important;
+        object-fit: cover;
+
+        @media (min-width: $bootstrap-sm) {
+            height: 350px;
+        }
+    }
+}
+
+#gallery img:hover {
+    cursor: pointer;
+    border: solid #8cbf3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+}
+
+// --- END: crop images --- //

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.myulcss {
+    font-size: 1.5rem;
+    font-family: 'Pattaya';
+}
+
+.myvideo {
+    font-size: 1.7rem;
+    font-family: 'Pattaya';
+    text-align: center;
+    margin: auto;
+}
+
+
+.vid1 {
+    border-radius: 30px;
+
+}
+
+.vid2 {
+    border-radius: 30px;
+
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#9453A6, #fcc20f);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+}
+
+.myfooter {
+    background: linear-gradient(#fcc20f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+.myicons {
+    width: 2rem;
+}
+
+.myicons:hover {
+    border-radius: 12px;
+    cursor: pointer;
+    border: solid #8cbf3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.1s;
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.myulcss {
+    font-size: 1.5rem;
+    font-family: 'Pattaya';
+}
+
+
+.aboutsec {
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+.cayetano {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 1);
+    margin-top: 1.3rem;
+    width: 80%;
+    height: 80%;
+}
+
+.cayetano:hover {
+    border-radius: 12px;
+    border: solid #9453A6;
+
+    box-shadow: 0 40px 21px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.latoya {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 1);
+    margin-top: 2.5%;
+    width: 120;
+    height: 360;
+}
+
+.latoya:hover {
+    border-radius: 12px;
+    border: solid #9453A6;
+
+    box-shadow: 0 40px 21px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.aboutheader {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Pattaya';
+    font-size: 3.5rem;
+}
+
+.laToyaCantrellheader {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Pattaya';
+    font-size: 3.5rem;
+
+}
+
+.aboutparagraph {
+    margin-top: 1.3rem;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: 'Roboto',
+        sans-serif;
+    ;
+}
+
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#9453A6, #fcc20f);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+}
+
+.myfooter {
+    background: linear-gradient(#fcc20f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+.myicons {
+    width: 2rem;
+}
+
+.myicons:hover {
+    border-radius: 12px;
+    cursor: pointer;
+    border: solid #8cbf3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.1s;
+}

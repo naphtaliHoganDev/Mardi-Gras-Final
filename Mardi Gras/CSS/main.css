@@ -1,0 +1,184 @@
+/* MAIN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NavBar CSS */
+.myulcss {
+    font-size: 1.5rem;
+    font-family: 'Pattaya';
+}
+
+
+
+/* End of NavBar CSS */
+/* Carousel Css */
+
+.carousel {
+    overflow: hidden !important;
+    height: 49vw;
+    width: auto;
+}
+
+.carousel-caption {
+    background-color: rgb(13, 13, 13, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0 !important;
+}
+
+
+
+.carouselhead {
+    margin-left: 0.5vw;
+    border-radius: 12px;
+    margin-right: 70vw;
+    margin-top: 1%;
+    font-size: 2.2rem;
+    font-family: 'Pattaya';
+
+}
+
+.carouseltext {
+    margin-right: 70vw;
+    padding-left: 40px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+    ;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* End of Carousel CSS */
+
+/* Sponser Section */
+.sponsers {
+    margin-top: 2rem !important;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Pattaya';
+    margin-bottom: 2rem !important;
+}
+
+
+.card-body {
+    width: auto;
+    height: 20rem;
+}
+
+.cards {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-family: 'Pattaya';
+}
+
+.card-text {
+    font-family: 'Roboto',
+        sans-serif;
+    ;
+}
+
+.cardimg {
+    width: auto;
+    height: 200px;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.disclaimersec {
+    margin-top: 8rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.smalldisc:hover {
+    border-radius: 12px;
+    border: solid #8cbf3f;
+
+    box-shadow: 0 40px 21px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.head {
+    text-shadow: 1px 1px #0d0d0d;
+    margin-top: 0 !important;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pattaya';
+    font-size: 3rem;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+    ;
+    font-size: 1.3rem;
+    line-height: 1.3;
+
+}
+
+/* End of Sponser Section */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#9453A6, #fcc20f);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+}
+
+
+/* MAIN END */
+.myfooter {
+    background: linear-gradient(#fcc20f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+.myicons {
+    width: 2rem;
+}
+
+.myicons:hover {
+    border-radius: 12px;
+    cursor: pointer;
+    border: solid #8cbf3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+    transition: 0.1s;
+}
+
+@media only screen and (max-width: 991px) {
+    .disclaimersec {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+}
