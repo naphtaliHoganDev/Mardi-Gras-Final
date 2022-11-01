@@ -60,8 +60,10 @@
 
     <!-- End of NAV -->
     <!-- SlideShow - Feels kind of buggy and slow for some reason, probably because I am on BS4 and not the most updated one.-->
-
-    <section class="slideshow myslide">
+    <div class="mobileImg d-md-none d-lg-none d-xl-none ">
+        <img class="w-100" src="./Images/llanydd-lloyd-5kL77tAHTqQ-unsplash.jpg">
+    </div>
+    <section class="slideshow myslide d-md-block d-none">
         <div class="container-fluid p-0">
             <div id="carouselExampleIndicators" class="carousel slide interval: false" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -139,7 +141,7 @@
     <section class="text-dark text-center disclaimersec">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-md-12 mr-auto smalldisc">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 mr-auto smalldisc">
                     <h1 class="head ">What even is the Mardi Gras?</h1>
                     <p class="text">Mardi Gras refers to events of the
                         Carnival celebration, beginning on
@@ -150,8 +152,9 @@
                         feasts of the Epiphany and
                         culminating on the day before Ash Wednesday, which is known as Shrove Tuesday.
                     </p>
+                    <hr class="d-md-none d-sm-block style-one">
                 </div>
-                <div class="col-lg-4 col-md-12 mx-auto smalldisc">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 mx-auto smalldisc">
                     <h2 class="head ">How long does Mardi Gras last?</h2>
                     <p class="text">The Mardi Gras celebrations last anywhere
                         from four to eight weeks,
@@ -162,8 +165,10 @@
                         celebrations last until
                         midnight, and then you will be "asked to clear off the street."
                     </p>
+                    <hr class="d-md-none d-sm-block style-one">
                 </div>
-                <div class="col-lg-4 col-md-12 ml-auto smalldisc">
+
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 ml-auto smalldisc">
                     <h3 class="head">How long is a Mardi Gras parade?</h3>
                     <p class="text ">
                         one to four hours!
@@ -226,7 +231,7 @@
                                 to notable NOLA points of interest.
                             </p>
                             <a href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/"
-                                target="_blank" class="btn btn-outline-primary btn-sm">
+                                class="btn btn-outline-primary btn-sm">
                                 To Sheraton New Orleans Hotel
                             </a>
                         </div>
@@ -244,7 +249,7 @@
                                 award-winning chefs, all under one roof. Effortless, intentional spaces in the
                                 Warehouse District of one of the best cities on Earth.
                             </p>
-                            <a href="https://acehotel.com/new-orleans/rooms/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <a href="https://acehotel.com/new-orleans/rooms/" class="btn btn-outline-primary btn-sm">
                                 To Ace Hotel New Orleans
                             </a>
                         </div>
@@ -263,7 +268,7 @@
                                 a 1908 Beaux Arts building. Here,
                                 one can bask in the silence of the hotel’s beautiful courtyard.
                             </p>
-                            <a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank"
+                            <a href="https://www.ritzcarlton.com/en/hotels/new-orleans"
                                 class="btn btn-outline-primary btn-sm">
                                 To The Ritz-Carlton, New Orleans
                             </a>
@@ -285,7 +290,7 @@
                                 management software to run our
                                 locations—now you can use it to upgrade yours.
                             </p>
-                            <a href="https://www.premiumparking.com/P402" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <a href="https://www.premiumparking.com/P402" class="btn btn-outline-primary btn-sm">
                                 To Premium Parking - P402
                             </a>
                         </div>
@@ -306,7 +311,7 @@
                                 where kids can be the amazing
                                 humans they are. A place where wonderful things happen daily.
                             </p>
-                            <a href="https://lcm.org/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <a href="https://lcm.org/" class="btn btn-outline-primary btn-sm">
                                 To Louisiana Children's Museum
                             </a>
                         </div>
@@ -327,7 +332,7 @@
                                 goal being "to make people happy
                                 to be alive."
                             </p>
-                            <a href="http://www.museumofdeath.net/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <a href="http://www.museumofdeath.net/" class="btn btn-outline-primary btn-sm">
                                 To Museum of Death
                             </a>
                         </div>
@@ -346,7 +351,7 @@
                                 chance to experience the paranormal.
                                 Are you brave enough you visit this museum?
                             </p>
-                            <a href="https://thehauntedmuseum.com/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            <a href="https://thehauntedmuseum.com/" class="btn btn-outline-primary btn-sm">
                                 To Haunted Museum
                             </a>
                         </div>
@@ -367,9 +372,8 @@
                 </a>
                 <ul class="nav col-md-4 justify-content-end" style="font-family: 'Roboto',
                     sans-serif;">
-                    <li class="nav-item"><a
-                            href="https://naphtali.elementor.cloud/"
-                            class="nav-link px-2 text-dark" target="_blank">
+                    <li class="nav-item"><a href="https://naphtali.elementor.cloud/" class="nav-link px-2 text-dark"
+                            target="_blank">
                             <img src="./Images/elementor.png" class="myicons" alt="">
                         </a>
                     </li>
@@ -380,7 +384,7 @@
                             class="nav-link px-2 text-dark" target="_blank"><img src="./Images/linkedin.png"
                                 class="myicons" alt=""></a>
                     </li>
-                    <li class="nav-item"><a href="https://api.whatsapp.com/send/?phone=%2B972547350437&text&type=phone_number&app_absent=0" class="nav-link px-2 text-dark"
+                    <li class="nav-item"><a href="https://wa.me/<0547350437>" class="nav-link px-2 text-dark"
                             target="_blank"><img src="./Images/whatsapp.png" class="myicons" alt=""></a></li>
                     <!-- Add contact page -->
                 </ul>
