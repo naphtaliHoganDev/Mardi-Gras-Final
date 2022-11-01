@@ -3,3 +3,4 @@
 3. Please do run the webpage in Live Server!
 4. Please let the Media page load properly for a couple of seconds! 
 5. Thanks for viewing my Project!! :D
+6. *****Update***** I fixed the contact form!
