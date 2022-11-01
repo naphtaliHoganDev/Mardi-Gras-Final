@@ -218,3 +218,21 @@ hr.style-one {
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-width: 1500px) {
+    .card-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1373px) {
+    .card-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 792px) {
+    .card-text {
+        font-size: 15px;
+    }
+}
