@@ -13,6 +13,7 @@
         rel="stylesheet">
     <!-- End of Fonts -->
     <link rel="shortcut icon" href="./Images/mardilogo.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <!-- My Css -->
     <link rel="stylesheet" href="./CSS/contact.css">
     <!-- End of My Css -->
@@ -58,126 +59,114 @@
     </nav>
     <!-- NAVBAR END -->
     <!-- CONTACT FORM -->
-    <!DOCTYPE html>
-    <html lang="en">
+    <div class="container">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Contact us if you have any questions what so ever!
+                </p>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Contact Form || Learning robo</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    </head>
+                <div class="info">
+                    <div class="information">
 
-    <body>
-        <div class="container">
-
-            <div class="form">
-                <div class="contact-info">
-                    <h3 class="title">Let's get in touch</h3>
-                    <p class="text">
-                        Contact us if you have any questions what so ever!
-                    </p>
-
-                    <div class="info">
-                        <div class="information">
-
-                            <p>naphi1234@gmail.com</p>
-                        </div>
-                        <div class="information">
-
-                            <p>+972547350437</p>
-                        </div>
+                        <p>naphi1234@gmail.com</p>
                     </div>
+                    <div class="information">
 
-                    <div class="social-media">
-                        <p>Connect with us :</p>
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/naphtalihh" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://twitter.com/Detsenn" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://naphtali.elementor.cloud/.cloud/password-lock/?redirect=https://naphtali.elementor.cloud/&subdomain=naphtali"
-                                target="_blank">
-                                <i class="fab fa-elementor"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/naphtali-hogan-34918224b/" target="_blank">
-                                <i class=" fab fa-linkedin-in"></i>
-                            </a>
-                        </div><br>
-                        <div class="credit">Made with <span style="color:tomato">❤</span> by <a
-                                href="https://www.learningrobo.com/">Learning Robo</a></div>
+                        <p>+972547350437</p>
                     </div>
                 </div>
 
-                <div class="contact-form">
-                    <span class="circle one"></span>
-                    <span class="circle two"></span>
-
-                    <form action="#" id="contactus" autocomplete="off">
-                        <h3 class="title">Contact us</h3>
-                        <div class="input-container">
-                            <input type="text" name="name" class="input" />
-                            <label for="">Username</label>
-                            <span id="name">Username</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="email" name="email" class="input" />
-                            <label for="">Email</label>
-                            <span>Email</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="tel" name="phone" class="input" />
-                            <label for="">Phone</label>
-                            <span>Phone</span>
-                        </div>
-                        <div class="input-container textarea">
-                            <textarea name="message" class="input"></textarea>
-                            <label for="">Message</label>
-                            <span>Message</span>
-                        </div>
-                        <input type="submit" value="Send" class="btn" />
-                    </form>
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/naphtalihh" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/Detsenn" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://naphtali.elementor.cloud/.cloud/password-lock/?redirect=https://naphtali.elementor.cloud/&subdomain=naphtali"
+                            target="_blank">
+                            <i class="fab fa-elementor"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/naphtali-hogan-34918224b/" target="_blank">
+                            <i class=" fab fa-linkedin-in"></i>
+                        </a>
+                    </div><br>
+                    <div class="credit">Made with <span style="color:tomato">❤</span> by <a
+                            href="https://www.learningrobo.com/">Learning Robo</a></div>
                 </div>
             </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                <form id="contactus" autocomplete="off">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" id="name" />
+                        <label for="name">First Name</label>
+                        <span>First Name</span>
+                        <small id="name-feedback" class="error-message hidenn"></small>
+
+
+
+                    </div>
+                    <div class="input-container">
+                        <input type="text" name="lastname" class="input" id="lastname" />
+                        <label for="lastname">Last Name</label>
+                        <span>Last Name</span>
+                        <small id="last-name-feedback" class="error-message hidenn"></small>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" id="email1" />
+                        <label for="email">Email</label>
+                        <span>Email</span>
+                        <small id="email-feedback" class="error-message hidenn"></small>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" id="message1"></textarea>
+                        <label for="message">Message</label>
+                        <span>Message</span>
+                        <small class="error-message hidenn" id="message1Error"></small>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+            </div>
         </div>
-
-    </body>
-
-    </html>
-
+    </div>
     <!-- CONTACT FORM END-->
     <!-- FOOTER -->
     <div class="container-fluid myfooter">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
-                <p class="col-md-4 mb-0" style="font-family: 'Pattaya';">© 2022 Naphtali Hogan Dev</p>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+            <p class="col-md-4 mb-0" style="font-family: 'Pattaya';">© 2022 Naphtali Hogan Dev</p>
 
-                <a href="index.html">
-                    <img src="./Images/mardilogo.jpg" alt="" style="width: 65px;">
-                </a>
-                <ul class="nav col-md-4 justify-content-end" style="font-family: 'Roboto',
-                    sans-serif;">
-                    <li class="nav-item"><a
-                            href="https://naphtali.elementor.cloud/"
-                            class="nav-link px-2 text-dark" target="_blank">
-                            <img src="./Images/elementor.png" class="myicons" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item"><a href="https://www.facebook.com/naphtalihh" class="nav-link px-2 text-dark"
-                            target="_blank">
-                            <img src="./Images/facebook.png" class="myicons" alt=""></a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/in/naphtali-hogan-34918224b/"
-                            class="nav-link px-2 text-dark" target="_blank"><img src="./Images/linkedin.png"
-                                class="myicons" alt=""></a>
-                    </li>
-                    <li class="nav-item"><a href="https://api.whatsapp.com/send/?phone=%2B972547350437&text&type=phone_number&app_absent=0" class="nav-link px-2 text-dark"
-                            target="_blank"><img src="./Images/whatsapp.png" class="myicons" alt=""></a></li>
-                    <!-- Add contact page -->
-                </ul>
-            </footer>
-        </div>
+            <a href="index.html">
+                <img src="./Images/mardilogo.jpg" alt="" style="width: 65px;">
+            </a>
+            <ul class="nav col-md-4 justify-content-end" style="font-family: 'Roboto',
+                                sans-serif;">
+                <li class="nav-item"><a
+                        href="https://naphtali.elementor.cloud/.cloud/password-lock/?redirect=https://naphtali.elementor.cloud/&subdomain=naphtali"
+                        class="nav-link px-2 text-dark" target="_blank">
+                        <img src="./Images/elementor.png" class="myicons" alt="">
+                    </a>
+                </li>
+                <li class="nav-item"><a href="https://www.facebook.com/naphtalihh" class="nav-link px-2 text-dark"
+                        target="_blank">
+                        <img src="./Images/facebook.png" class="myicons" alt=""></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/naphtali-hogan-34918224b/"
+                        class="nav-link px-2 text-dark" target="_blank"><img src="./Images/linkedin.png" class="myicons"
+                            alt=""></a>
+                </li>
+                <li class="nav-item"><a href="https://wa.me/<0547350437>" class="nav-link px-2 text-dark"
+                        target="_blank"><img src="./Images/whatsapp.png" class="myicons" alt=""></a></li>
+                <!-- Add contact page -->
+            </ul>
+        </footer>
     </div>
     <!-- FOOTER END-->
     <script src="./JS/contact.js"></script>
