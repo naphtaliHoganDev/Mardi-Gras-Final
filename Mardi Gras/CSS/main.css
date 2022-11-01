@@ -17,6 +17,13 @@
 
 /* End of NavBar CSS */
 /* Carousel Css */
+.mobileImg {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
 .carousel {
     overflow: hidden !important;
@@ -176,9 +183,38 @@ hr.style-one {
     transition: 0.1s;
 }
 
-@media only screen and (max-width: 991px) {
+/* Queries */
+@media only screen and (max-width: 992px) {
     .disclaimersec {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+
+    .head,
+    .sponsers {
+        font-size: 2.3rem;
+        font-weight: 100;
+    }
+
+    .cards {
+        padding-top: 0;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 528px) {
+    .head {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    .text {
+        font-size: 1rem;
     }
 }
